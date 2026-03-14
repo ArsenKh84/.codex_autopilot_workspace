@@ -1,0 +1,15 @@
+# Internal Claude Code session data — do not commit
+backups/
+cache/
+debug/
+file-history/
+history.jsonl
+ide/
+paste-cache/
+plugins/
+policy-limits.json
+projects/
+shell-snapshots/
+plans/
+worktrees/
+scheduled-tasks/
