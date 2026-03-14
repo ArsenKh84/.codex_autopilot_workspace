@@ -1,0 +1,35 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "mac-hub",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": ["-c", "cd /Users/admin/tg_mac_hub && set -a && source .env && set +a && exec python3 app/server.py"],
+      "port": 8787
+    },
+    {
+      "name": "openclaw",
+      "runtimeExecutable": "/Users/admin/Downloads/claude-code-setup/ai-agent/.venv/bin/python3",
+      "runtimeArgs": ["/Users/admin/Downloads/claude-code-setup/ai-agent/openclaw/web_dashboard.py", "--no-browser"],
+      "port": 7331
+    },
+    {
+      "name": "gpt5-api",
+      "runtimeExecutable": "/Users/admin/.technoglob/venv/bin/python3",
+      "runtimeArgs": ["/Users/admin/technoglob/gpt5/api/server.py"],
+      "port": 8088
+    },
+    {
+      "name": "whatsapp",
+      "runtimeExecutable": "/Users/admin/.whatsapp_venv/bin/python3",
+      "runtimeArgs": ["/Users/admin/tg_whatsapp_server.py"],
+      "port": 5005
+    },
+    {
+      "name": "mission-control",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["/Users/admin/clawd/mission-control/server.js"],
+      "port": 3333
+    }
+  ]
+}
